@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#DA251D">
+  <title>ベトナムのしおり'26</title>
+
+  <link rel="apple-touch-icon" id="app-icon-link" href="assets/apple-touch-icon.png">
+  <link rel="icon" id="favicon-link" type="image/png" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="app-header" class="app-header">
+    <div class="bubble bubble-a"></div>
+    <div class="bubble bubble-b"></div>
+    <div class="bubble bubble-c"></div>
+    <div class="max-w-4xl mx-auto relative z-10 text-center px-4 py-8">
+      <span id="hero-badge" class="hero-badge"></span>
+      <h1 id="hero-title" class="hero-title"></h1>
+      <img id="hero-image" class="hero-image hidden" alt="">
+      <p id="hero-dates" class="hero-dates"></p>
+    </div>
+    <div class="header-accent"></div>
+  </header>
+
+  <nav class="app-nav">
+    <div id="tab-nav" class="max-w-4xl mx-auto flex gap-1 overflow-x-auto px-2 py-1.5"></div>
+  </nav>
+
+  <main id="app-main" class="flex-grow max-w-4xl w-full mx-auto p-4 md:p-6"></main>
+
+  <footer class="app-footer">
+    <div class="max-w-4xl mx-auto px-4 space-y-2">
+      <p id="footer-title" class="footer-title"></p>
+      <p id="footer-text" class="font-bold"></p>
+    </div>
+  </footer>
+
+  <div id="copy-toast" class="copy-toast hidden">
+    <i class="fa-solid fa-check mr-1"></i><span id="copy-toast-text">コピーしました</span>
+  </div>
+
+  <script src="trip-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "ベトナムのしおり'26",
+  "short_name": "ベトナム'26",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFF6EF",
+  "theme_color": "#DA251D",
+  "icons": [
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
