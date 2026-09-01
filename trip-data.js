@@ -48,7 +48,14 @@ window.TRIP_DATA = {
           { id: "d1-home-departure", time: "06:00", title: "自宅 出発", description: "" },
           { id: "d1-keisei-ueno", time: "06:20", title: "京成上野 発", description: "" },
           { id: "d1-airport-terminal2", time: "07:05", title: "空港第2ビル 着", description: "ベトジェットは第2ターミナル。" },
-          { id: "d1-checkin", time: "07:30", title: "チェックイン", description: "" }
+          { id: "d1-checkin", time: "07:30", title: "チェックイン", description: "" },
+          { id: "d1-02", time: "08:55", badge: "国際線", highlight: true, title: "成田空港発", description: "ホーチミンへ出発。" },
+          { id: "d1-03", time: "12:55", badge: "到着", highlight: true, title: "タンソンニャット国際空港着", description: "12:55～14:10は入国審査・荷物受取・両替またはATM利用。" },
+          { id: "d1-04", time: "14:15～14:30", badge: "要予約", title: "専用車と合流", description: "国際線到着後のため、バス乗場へ移動せずホテルまで直行する。" },
+          { id: "d1-05", time: "14:30頃", badge: "専用車", title: "カントーへ出発", description: "必要に応じて途中のサービスエリア等で休憩。" },
+          { id: "d1-06", time: "18:30～19:00頃", badge: "カントー", title: "カントー着・ホテルチェックイン", description: "Wink Hotel Can Tho Centre（第一候補）。立地・清潔さ・コストのバランスを重視。" },
+          { id: "d1-07", time: "19:30～20:15", badge: "夕食", title: "Nem Nướng Thanh Vân候補", description: "ネムヌオン（豚肉の炭火焼き）。到着が遅れたらホテル周辺で軽く済ませる。" },
+          { id: "d1-08", time: "21:15頃", badge: "早めに休む", title: "就寝", description: "翌朝のカイラン水上マーケットに備える。" }
         ]
       },
       {
@@ -89,7 +96,10 @@ window.TRIP_DATA = {
           { id: "d4-wakeup", time: "08:00", title: "起床", description: "" },
           { id: "d4-hatien-arrival", time: "09:30", title: "ハティエン港 着", description: "" },
           { id: "d4-hatien-departure", time: "10:20", title: "ハティエン港 発", description: "" },
-          { id: "d4-baivong-arrival", time: "12:00", title: "Bãi Vòng港 着", description: "" }
+          { id: "d4-baivong-arrival", time: "12:00", title: "Bãi Vòng 着", description: "" },
+          { id: "d4-05", time: "10:45～14:00", badge: "ホテル", title: "ホテル着・荷物預け・昼食", description: "チェックインまでホテルで休憩。" },
+          { id: "d4-06", time: "14:00～17:00", badge: "休息優先", highlight: true, title: "プール・ビーチ・昼寝", description: "島内観光は入れない。" },
+          { id: "d4-07", time: "17:20～18:00頃", badge: "夕日", title: "サンセット", description: "18:30以降はホテルで夕食・自由時間。" }
         ]
       },
       {
