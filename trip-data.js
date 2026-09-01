@@ -44,14 +44,11 @@ window.TRIP_DATA = {
         id: "day1", quickLabel: "✈️ 10/6", label: "第1日", date: "10月6日（火）",
         title: "成田 → ホーチミン → カントー", summary: "移動日", summaryIcon: "fa-solid fa-plane",
         items: [
-          { id: "d1-01", time: "06:30頃", badge: "集合", title: "成田空港到着", description: "出発手続き。" },
-          { id: "d1-02", time: "08:55", badge: "国際線", highlight: true, title: "成田空港発", description: "ホーチミンへ出発。" },
-          { id: "d1-03", time: "12:55", badge: "到着", highlight: true, title: "タンソンニャット国際空港着", description: "12:55～14:10は入国審査・荷物受取・両替またはATM利用。" },
-          { id: "d1-04", time: "14:15～14:30", badge: "要予約", title: "専用車と合流", description: "国際線到着後のため、バス乗場へ移動せずホテルまで直行する。" },
-          { id: "d1-05", time: "14:30頃", badge: "専用車", title: "カントーへ出発", description: "必要に応じて途中のサービスエリア等で休憩。" },
-          { id: "d1-06", time: "18:30～19:00頃", badge: "カントー", title: "カントー着・ホテルチェックイン", description: "Wink Hotel Can Tho Centre（第一候補）。立地・清潔さ・コストのバランスを重視。" },
-          { id: "d1-07", time: "19:30～20:15", badge: "夕食", title: "Nem Nướng Thanh Vân候補", description: "ネムヌオン（豚肉の炭火焼き）。到着が遅れたらホテル周辺で軽く済ませる。" },
-          { id: "d1-08", time: "21:15頃", badge: "早めに休む", title: "就寝", description: "翌朝のカイラン水上マーケットに備える。" }
+          { id: "d1-wakeup", time: "05:00", title: "起床", description: "" },
+          { id: "d1-home-departure", time: "06:00", title: "自宅 出発", description: "" },
+          { id: "d1-keisei-ueno", time: "06:20", title: "京成上野 発", description: "" },
+          { id: "d1-airport-terminal2", time: "07:05", title: "空港第2ビル 着", description: "ベトジェットは第2ターミナル。" },
+          { id: "d1-checkin", time: "07:30", title: "チェックイン", description: "" }
         ]
       },
       {
@@ -89,13 +86,10 @@ window.TRIP_DATA = {
         id: "day4", quickLabel: "🏝️ 10/9", label: "第4日", date: "10月9日（金）",
         title: "ハティエン → フーコック島", summary: "リゾートへ", summaryIcon: "fa-solid fa-ship",
         items: [
-          { id: "d4-01", time: "06:45～07:50", badge: "朝の準備", title: "起床・朝食・チェックアウト", description: "07:00～07:30朝食。" },
-          { id: "d4-02", time: "08:00頃", badge: "港", title: "ハティエン港到着", description: "08:00～08:45乗船手続き。" },
-          { id: "d4-03", time: "09:00頃【仮】", badge: "便未確定", highlight: true, title: "高速船でフーコックへ", description: "Phú Quốc Expressを第一候補。正式ダイヤ、料金、出航港、乗船締切を公開後に再確認。" },
-          { id: "d4-04", time: "10:15～10:30頃【仮】", badge: "到着", title: "Bãi Vòng港着", description: "タクシー等でSOL by Meliá Phu Quocへ。" },
-          { id: "d4-05", time: "10:45～14:00", badge: "ホテル", title: "ホテル着・荷物預け・昼食", description: "チェックインまでホテルで休憩。" },
-          { id: "d4-06", time: "14:00～17:00", badge: "休息優先", highlight: true, title: "プール・ビーチ・昼寝", description: "島内観光は入れない。" },
-          { id: "d4-07", time: "17:20～18:00頃", badge: "夕日", title: "サンセット", description: "18:30以降はホテルで夕食・自由時間。" }
+          { id: "d4-wakeup", time: "08:00", title: "起床", description: "" },
+          { id: "d4-hatien-arrival", time: "09:30", title: "ハティエン港 着", description: "" },
+          { id: "d4-hatien-departure", time: "10:20", title: "ハティエン港 発", description: "" },
+          { id: "d4-baivong-arrival", time: "12:00", title: "Bãi Vòng港 着", description: "" }
         ]
       },
       {
