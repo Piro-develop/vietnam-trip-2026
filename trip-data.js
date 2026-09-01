@@ -56,7 +56,12 @@ window.TRIP_DATA = {
           { id: "d1-06", time: "14:25～14:40頃", badge: "Grab等", title: "MEKO Limousine乗り場へ移動", description: "目的地：MEKO Limousine（189 Đào Duy Từ, District 10, Ho Chi Minh City）。Grab等で移動し、14:40頃までに到着する。到着後、受付・荷物預け・乗車準備。" },
           { id: "d1-07", time: "15:00", badge: "MEKO Limousine", highlight: true, title: "カントーへ出発", description: "出発：15:00。到着予定：17:40頃。所要時間：約2時間40分。運賃：270,000 VND（約1,660円）。15:00発への乗車を最優先とする。" },
           { id: "d1-08", time: "17:40頃", badge: "カントー", title: "カントー到着", description: "MEKO Limousineの市内無料送迎が利用できる場合は、ホテルまたはカントー中心部まで利用する。無料送迎対象外の場合はGrabを利用する。市内移動：約20～40分程度。" },
-          { id: "d1-09", time: "18:00～18:30頃", badge: "ホテル", title: "カントー中心部／ホテル到着・チェックイン", description: "その後、カントー市内で夕食・散策。" },
+          { id: "d1-09", time: "18:00～18:30頃", badge: "ホテル", title: "カントー中心部／ホテル到着・チェックイン", description: "Wink Hotel Can Tho Centreにチェックイン。" },
+          { id: "d1-night-departure", time: "19:20頃", badge: "夜散策", title: "ホテルを出発", description: "ニンキウ埠頭周辺へ移動。" },
+          { id: "d1-ninh-kieu", time: "19:30～20:15頃", badge: "ニンキウ埠頭", title: "Ninh Kieu Wharf周辺を散策", description: "夜のメコン川沿いの雰囲気を楽しむ。川沿い、周辺の商店・屋台等を無理のない範囲で歩く。" },
+          { id: "d1-dinner", time: "20:15～21:15頃", badge: "夕食", title: "ニンキウ埠頭周辺で夕食", description: "ローカルフードを優先し、雰囲気より味・口コミを重視する。地元客が多い店、屋台、ローカル食堂を候補とする。Nem Nướng Thanh Vânも候補として残すが、移動効率が悪い場合はニンキウ周辺の評価が高い店を優先してよい。" },
+          { id: "d1-hotel-return", time: "21:30頃", badge: "ホテル", title: "ホテル帰着", description: "翌朝04:30起床予定のため、21:30頃までに戻る。" },
+          { id: "d1-sleep", time: "22:00頃", badge: "就寝", title: "就寝", description: "翌朝のカイラン水上マーケットに備えて休む。" },
           { id: "d1-10", time: "注意", badge: "時間管理", highlight: true, title: "遅延時はフォーを省略", description: "13:45頃までに空港を出発できない場合は、Phở Hùngでの食事を省略し、空港から直接MEKO Limousine乗り場（189 Đào Duy Từ）へ向かう。" }
         ]
       },
