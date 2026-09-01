@@ -50,12 +50,14 @@ window.TRIP_DATA = {
           { id: "d1-airport-terminal2", time: "07:05", title: "空港第2ビル 着", description: "ベトジェットは第2ターミナル。" },
           { id: "d1-checkin", time: "07:30", title: "チェックイン", description: "" },
           { id: "d1-02", time: "08:55", badge: "国際線", highlight: true, title: "成田空港発", description: "ホーチミンへ出発。" },
-          { id: "d1-03", time: "12:55", badge: "到着", highlight: true, title: "タンソンニャット国際空港着", description: "12:55～14:10は入国審査・荷物受取・両替またはATM利用。" },
-          { id: "d1-04", time: "14:15～14:30", badge: "要予約", title: "専用車と合流", description: "国際線到着後のため、バス乗場へ移動せずホテルまで直行する。" },
-          { id: "d1-05", time: "14:30頃", badge: "専用車", title: "カントーへ出発", description: "必要に応じて途中のサービスエリア等で休憩。" },
-          { id: "d1-06", time: "18:30～19:00頃", badge: "カントー", title: "カントー着・ホテルチェックイン", description: "Wink Hotel Can Tho Centre（第一候補）。立地・清潔さ・コストのバランスを重視。" },
-          { id: "d1-07", time: "19:30～20:15", badge: "夕食", title: "Nem Nướng Thanh Vân候補", description: "ネムヌオン（豚肉の炭火焼き）。到着が遅れたらホテル周辺で軽く済ませる。" },
-          { id: "d1-08", time: "21:15頃", badge: "早めに休む", title: "就寝", description: "翌朝のカイラン水上マーケットに備える。" }
+          { id: "d1-03", time: "12:55", badge: "到着", highlight: true, title: "タンソンニャット国際空港（SGN）到着", description: "入国審査・荷物受取等。13:30頃に空港を出発する想定。" },
+          { id: "d1-04", time: "13:30頃", badge: "Grab", title: "Phở Hùng - Nguyễn Tri Phươngへ移動", description: "目的地：Phở Hùng - Nguyễn Tri Phương（288 Nguyễn Tri Phương, District 10, Ho Chi Minh City）。所要時間：約25～40分。Grab料金目安：90,000～140,000 VND（約550～860円）。14:10頃までの到着を目標とする。" },
+          { id: "d1-05", time: "14:00～14:25頃", badge: "フォー", title: "Phở Hùng - Nguyễn Tri Phươngでフォーを食べる", description: "食事時間：約20～25分。料金目安：～100,000 VND（～約610円）。" },
+          { id: "d1-06", time: "14:25～14:40頃", badge: "Grab等", title: "MEKO Limousine乗り場へ移動", description: "目的地：MEKO Limousine（189 Đào Duy Từ, District 10, Ho Chi Minh City）。Grab等で移動し、14:40頃までに到着する。到着後、受付・荷物預け・乗車準備。" },
+          { id: "d1-07", time: "15:00", badge: "MEKO Limousine", highlight: true, title: "カントーへ出発", description: "出発：15:00。到着予定：17:40頃。所要時間：約2時間40分。運賃：270,000 VND（約1,660円）。15:00発への乗車を最優先とする。" },
+          { id: "d1-08", time: "17:40頃", badge: "カントー", title: "カントー到着", description: "MEKO Limousineの市内無料送迎が利用できる場合は、ホテルまたはカントー中心部まで利用する。無料送迎対象外の場合はGrabを利用する。市内移動：約20～40分程度。" },
+          { id: "d1-09", time: "18:00～18:30頃", badge: "ホテル", title: "カントー中心部／ホテル到着・チェックイン", description: "その後、カントー市内で夕食・散策。" },
+          { id: "d1-10", time: "注意", badge: "時間管理", highlight: true, title: "遅延時はフォーを省略", description: "13:45頃までに空港を出発できない場合は、Phở Hùngでの食事を省略し、空港から直接MEKO Limousine乗り場（189 Đào Duy Từ）へ向かう。" }
         ]
       },
       {
