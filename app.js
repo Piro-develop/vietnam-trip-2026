@@ -102,16 +102,23 @@
   function renderItinerary() {
     const container = $("#content-itinerary");
     const days = DATA.itinerary?.days || [];
-    const navColumns = Math.max(1, Math.min(days.length, 4));
-    const quick = days.length ? `
-      <div class="quick-nav">
-        <div class="quick-nav-grid" style="grid-template-columns:repeat(${navColumns},minmax(0,1fr))">
-          ${days.map(day => `<a class="quick-link" href="#${escapeHtml(day.id)}">${escapeHtml(day.quickLabel || day.label)}</a>`).join("")}
-        </div>
+    const daySelect = days.length ? `
+      <div class="day-select-nav">
+        <label class="day-select-wrap" for="itinerary-day-select">
+          <span class="day-select-label"><i class="fa-solid fa-calendar-day"></i>日程を選択</span>
+          <select id="itinerary-day-select" class="day-select">
+            ${days.map(day => `<option value="${escapeHtml(day.id)}">${escapeHtml(`${day.quickLabel || day.label} ${day.title || ""}`.trim())}</option>`).join("")}
+          </select>
+        </label>
       </div>` : "";
 
-    container.innerHTML = `<div class="space-y-6">${quick}${days.map(renderDay).join("")}</div>`;
+    container.innerHTML = `<div class="space-y-6">${daySelect}${days.map(renderDay).join("")}</div>`;
+    $("#itinerary-day-select")?.addEventListener("change", event => scrollToDay(event.currentTarget.value));
     $$(".itinerary-check", container).forEach(check => check.addEventListener("change", saveProgress));
+  }
+
+  function scrollToDay(dayId) {
+    document.getElementById(dayId)?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function renderDay(day) {
