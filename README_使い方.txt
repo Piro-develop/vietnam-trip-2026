@@ -14,4 +14,6 @@ index.html をダブルクリックすると閲覧できます。
 リンク先は未登録です。10月9日の高速船、10月11日の国内線、各移動便・予約内容は出発前に再確認してください。
 
 【公開状況】
-現在はローカル版です。GitHub Pagesへの公開は行っていません。
+GitHub Pagesで公開済みです。
+公開URL：https://piro-develop.github.io/vietnam-trip-2026/
+GitHubリポジトリ：https://github.com/Piro-develop/vietnam-trip-2026
