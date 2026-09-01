@@ -134,9 +134,7 @@ body {
 .item-badge.highlight { background: var(--theme-yellow); }
 .item-title { margin: 4px 0 0; color: var(--theme-deep); font-size: 16px; font-weight: 700; }
 .item-desc { margin: 4px 0 0; color: #6b7280; font-size: 12px; line-height: 1.65; }
-.check-row { display: flex; align-items: center; margin-top: 8px; gap: 8px; color: #9ca3af; font-size: 12px; }
 .app-check { width: 20px; height: 20px; accent-color: var(--theme-main); }
-.completed .item-title { text-decoration: line-through; color: #d1d5db; font-weight: 400; }
 
 .category-title {
   margin-bottom: 12px; padding: 8px 12px; border-left: 4px solid var(--theme-main); border-radius: .75rem;

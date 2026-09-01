@@ -23,7 +23,6 @@
     renderMeta();
     renderNav();
     renderTabs();
-    loadProgress();
     loadPacking();
     loadUserPackingItems();
     switchTab("itinerary", false);
@@ -114,7 +113,6 @@
 
     container.innerHTML = `<div class="space-y-6">${daySelect}${days.map(renderDay).join("")}</div>`;
     $("#itinerary-day-select")?.addEventListener("change", event => scrollToDay(event.currentTarget.value));
-    $$(".itinerary-check", container).forEach(check => check.addEventListener("change", saveProgress));
   }
 
   function scrollToDay(dayId) {
@@ -138,7 +136,6 @@
   }
 
   function renderItineraryItem(item) {
-    const checkboxId = `check-${item.id}`;
     return `<div class="timeline-item" data-itinerary-id="${escapeHtml(item.id)}">
       <div class="timeline-dot"></div>
       <div class="item-top">
@@ -147,28 +144,7 @@
       </div>
       <h3 class="item-title">${escapeHtml(item.title)}</h3>
       <p class="item-desc">${escapeHtml(item.description)}</p>
-      <label class="check-row" for="${checkboxId}">
-        <input type="checkbox" id="${checkboxId}" class="itinerary-check app-check" data-key="${escapeHtml(item.id)}">
-        <span>チェックしてクリア！</span>
-      </label>
     </div>`;
-  }
-
-  function saveProgress() {
-    const state = {};
-    $$(".itinerary-check").forEach(check => {
-      state[check.dataset.key] = check.checked;
-      check.closest(".timeline-item")?.classList.toggle("completed", check.checked);
-    });
-    localStorage.setItem(storageKey("progress"), JSON.stringify(state));
-  }
-
-  function loadProgress() {
-    const state = readJson(storageKey("progress"), {});
-    $$(".itinerary-check").forEach(check => {
-      check.checked = Boolean(state[check.dataset.key]);
-      check.closest(".timeline-item")?.classList.toggle("completed", check.checked);
-    });
   }
 
   function renderEmergency() {
