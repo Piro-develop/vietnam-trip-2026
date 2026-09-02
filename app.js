@@ -140,9 +140,8 @@
       <div class="timeline-dot"></div>
       <div class="item-top">
         <span class="item-time"><i class="fa-regular fa-clock mr-1"></i>${escapeHtml(item.time)}</span>
-        ${item.badge ? `<span class="item-badge ${item.highlight ? "highlight" : ""}">${item.badgeIcon ? `<i class="${escapeHtml(item.badgeIcon)} mr-1"></i>` : ""}${escapeHtml(item.badge)}</span>` : ""}
+        <h3 class="item-title">${escapeHtml(item.title)}</h3>
       </div>
-      <h3 class="item-title">${escapeHtml(item.title)}</h3>
       <p class="item-desc">${escapeHtml(item.description)}</p>
     </div>`;
   }

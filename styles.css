@@ -127,12 +127,9 @@ body {
 .timeline { position: relative; border-left: 4px solid color-mix(in srgb, var(--theme-main) 30%, transparent); margin-left: 16px; padding-left: 24px; display: grid; gap: 24px; }
 .timeline-item { position: relative; }
 .timeline-dot { position: absolute; left: -34px; top: 4px; width: 20px; height: 20px; border: 4px solid var(--theme-main); background: white; border-radius: 9999px; }
-.item-top { display: flex; flex-direction: column; gap: 4px; }
-@media (min-width: 768px) { .item-top { flex-direction: row; align-items: center; justify-content: space-between; } }
-.item-time { color: var(--theme-accent); font-size: 14px; font-weight: 900; }
-.item-badge { align-self: flex-start; border-radius: 9999px; padding: 3px 8px; background: var(--theme-light); color: var(--theme-deep); font-size: 10px; font-weight: 700; }
-.item-badge.highlight { background: var(--theme-yellow); }
-.item-title { margin: 4px 0 0; color: var(--theme-deep); font-size: 16px; font-weight: 700; }
+.item-top { display: flex; align-items: baseline; gap: 8px; }
+.item-time { flex: 0 0 auto; color: var(--theme-accent); font-size: 14px; font-weight: 900; }
+.item-title { min-width: 0; margin: 0; color: var(--theme-deep); font-size: 16px; font-weight: 700; }
 .item-desc { margin: 4px 0 0; color: #6b7280; font-size: 12px; line-height: 1.65; }
 .app-check { width: 20px; height: 20px; accent-color: var(--theme-main); }
 
