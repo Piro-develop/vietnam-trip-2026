@@ -50,7 +50,7 @@ window.TRIP_DATA = {
           { id: "d1-airport-terminal2", time: "07:05", badge: "空港到着", highlight: true, title: "空港第2ビル 着", description: "ベトジェットは第2ターミナル。" },
           { id: "d1-checkin", time: "07:30", title: "チェックイン", description: "" },
           { id: "d1-02", time: "08:55", badge: "国際線", highlight: true, title: "成田空港発", description: "ホーチミンへ出発。フライト時間：6時間。" },
-          { id: "d1-03", time: "12:55", badge: "到着", highlight: true, title: "タンソンニャット国際空港 到着", description: "入国審査等。VPBankで300万VNDをキャッシングし、13:20頃に空港を出発。" },
+          { id: "d1-03", time: "12:55", badge: "到着", highlight: true, title: "タンソンニャット国際空港 到着", description: "入国審査等。BIDVで300万VNDをキャッシングし、13:20頃に空港を出発。" },
           { id: "d1-04", time: "13:20頃", badge: "Grab or 徒歩", title: "空港 出発", description: "Grabか徒歩でフォー屋さんへ。13時半に間に合うなら、Phở Khangへ、間に合わないならPhở Hùng Cường。所要時間：約10 or 25分。" },
           { id: "d1-05", time: "13:30頃 or 14:00", badge: "フォー", title: "ランチ@Phở Khang or Phở Hùng Cường", description: "牛肉のフォー(フォーボー)がオススメ。料金目安：～100,000 VND（～約610円）。" },
           { id: "d1-06", time: "14:30頃", badge: "Grab等", title: "ミエンタイ・バスターミナル 着", description: "Western Bus Station。オススメのバス会社はThành Bưởi(23番カウンター)かFUTA(7,32,33番カウンター)。時刻表、所要時間、費用、バス停からホテルエリアまでの送迎の有無、を要確認。" },
@@ -122,13 +122,13 @@ window.TRIP_DATA = {
       },
       {
         id: "day6", quickLabel: "✈️ 10/11", label: "第6日", date: "10月11日（日）",
-        title: "フーコック島 → ホーチミン", summary: "便未定", summaryIcon: "fa-solid fa-plane-departure",
+        title: "フーコック島 → ホーチミン", summary: "16:25発", summaryIcon: "fa-solid fa-plane-departure",
         items: [
           { id: "d6-01", time: "08:00～12:00", badge: "最終朝", title: "朝食・プール・ビーチ", description: "フーコック最終日も午前はゆっくり過ごす。" },
           { id: "d6-02", time: "12:00～16:00頃", badge: "ホテル", title: "チェックアウト・昼食・休憩", description: "荷物を預け、レイトチェックアウトまたはシャワー利用可否を事前確認。" },
           { id: "d6-03", time: "フライト約2時間前", badge: "空港へ", title: "ホテル出発", description: "着替えと荷物回収を済ませる。" },
-          { id: "d6-04", time: "17:30～20:00頃【未定】", badge: "便未定", highlight: true, title: "フーコック発", description: "直行便、可能なら19時前後発を希望。" },
-          { id: "d6-05", time: "21:00～22:30頃", badge: "ホーチミン", title: "Mai Houseチェックイン", description: "空港からGrab等でホテルへ。" }
+          { id: "d6-04", time: "16:25～17:30", badge: "国内線", highlight: true, title: "フーコック発 → ホーチミン着", description: "16:25発、17:30着の直行便。" },
+          { id: "d6-05", time: "18:30頃", badge: "ホーチミン", title: "Hotel Majestic Saigonチェックイン", description: "空港からGrab等でホテルへ。" }
         ]
       },
       {
@@ -138,11 +138,11 @@ window.TRIP_DATA = {
           { id: "d7-01", time: "07:00～07:45", badge: "朝食", title: "ホテル出発・バインミー", description: "Bánh Mì Hồng Hoaを第一候補。雰囲気より味、地元客と回転の良さを優先。" },
           { id: "d7-02", time: "08:15～09:45", badge: "最優先", highlight: true, title: "戦争証跡博物館", description: "ベトナム戦争関連では最優先。" },
           { id: "d7-03", time: "10:15～11:45", badge: "歴史", highlight: true, title: "統一会堂", description: "サイゴン陥落の歴史的舞台。歴史系は基本この2か所。" },
-          { id: "d7-04", time: "12:00～15:30", badge: "昼食・休憩", title: "昼食後、Mai Houseで休憩", description: "午後に備えてしっかり休む。" },
+          { id: "d7-04", time: "12:00～15:30", badge: "昼食・休憩", title: "昼食後、Hotel Majestic Saigonで休憩", description: "午後に備えてしっかり休む。" },
           { id: "d7-05", time: "16:00～17:30", badge: "中心街", title: "中央郵便局・ブックストリート・ドンコイ通り", description: "中心街を散策。" },
           { id: "d7-06", time: "17:30～18:00", badge: "散歩", title: "グエンフエ通り周辺", description: "夕食前の街歩き。" },
           { id: "d7-07", time: "18:30～20:00", badge: "食べ歩き", highlight: true, title: "ホーティーキー・フードストリート", description: "串物、麺、肉料理、シーフード、デザートなどを2～4軒で楽しむ。" },
-          { id: "d7-08", time: "20:30頃", badge: "ホテル", title: "ホテル帰着", description: "休息。" }
+          { id: "d7-08", time: "20:30頃", badge: "ホテル", title: "Hotel Majestic Saigon帰着", description: "休息。" }
         ]
       },
       {
@@ -153,10 +153,10 @@ window.TRIP_DATA = {
           { id: "d8-02", time: "08:15～09:45", badge: "市場", highlight: true, title: "ビンタイ市場", description: "卸売と地元商業の雰囲気を楽しむ。" },
           { id: "d8-03", time: "10:00～10:45", badge: "寺院", title: "ティエンハウ寺", description: "チョロンの華人文化を感じる。" },
           { id: "d8-04", time: "10:45～13:00", badge: "街歩き・昼食", title: "チョロンの路地・商店街", description: "12:00～13:00はローカル食堂で昼食。" },
-          { id: "d8-05", time: "13:30～15:30", badge: "休憩", title: "ホテルで休憩", description: "午後に備える。" },
+          { id: "d8-05", time: "13:30～15:30", badge: "ホテル移動・休憩", title: "The Reverie Saigonへ移動・休憩", description: "Hotel Majestic Saigonからホテルを移り、荷物預けまたはチェックイン。午後に備える。" },
           { id: "d8-06", time: "16:15～17:00", badge: "省略可", title: "タンディン市場", description: "疲れていれば省略してよい。" },
           { id: "d8-07", time: "17:10～18:15", badge: "夕食", highlight: true, title: "Bánh Xèo 46A", description: "バインセオを食べる。" },
-          { id: "d8-08", time: "18:30～20:00頃", badge: "カフェ", title: "カフェ後、ホテル帰着", description: "18:30～19:15頃カフェ。" }
+          { id: "d8-08", time: "18:30～20:00頃", badge: "カフェ", title: "カフェ後、The Reverie Saigon帰着", description: "18:30～19:15頃カフェ。" }
         ]
       },
       {
@@ -165,23 +165,23 @@ window.TRIP_DATA = {
         items: [
           { id: "d9-01", time: "07:30～08:30", badge: "ゆっくり", title: "朝食", description: "余白日として無理をしない。" },
           { id: "d9-02", time: "09:00～10:30", badge: "市場・路地", title: "Bàn Cờ市場と周辺散策", description: "10:30～11:00にベトナムコーヒー。" },
-          { id: "d9-03", time: "11:30～15:30", badge: "昼食・休憩", title: "昼食後、ホテルで休憩", description: "13:00～15:30は休む。" },
+          { id: "d9-03", time: "11:30～15:30", badge: "昼食・休憩", title: "昼食後、The Reverie Saigonで休憩", description: "13:00～15:30は休む。" },
           { id: "d9-04", time: "16:00～17:30", badge: "散歩・カフェ", title: "Turtle Lake周辺", description: "16:30～17:30はカフェ。" },
           { id: "d9-05", time: "18:00～19:15", badge: "夕食", title: "夕食", description: "Quán Ăn Cô Liêng候補。Bò lá lốt（牛肉の葉包み炭火焼き）。" },
-          { id: "d9-06", time: "19:30頃", badge: "予備日", title: "ホテル帰着", description: "行けなかった場所、再訪、雨天延期分への差し替え可。疲れていればホテル滞在。" }
+          { id: "d9-06", time: "19:30頃", badge: "予備日", title: "The Reverie Saigon帰着", description: "行けなかった場所、再訪、雨天延期分への差し替え可。疲れていればホテル滞在。" }
         ]
       },
       {
         id: "day10", quickLabel: "🎁 10/15", label: "第10日", date: "10月15日（木）",
         title: "ホーチミン → 成田", summary: "お土産・帰国", summaryIcon: "fa-solid fa-gift",
         items: [
-          { id: "d10-01", time: "07:30～09:00", badge: "最終朝", title: "朝食・チェックアウト", description: "荷物をMai Houseに預ける。" },
+          { id: "d10-01", time: "07:30～09:00", badge: "最終朝", title: "朝食・チェックアウト", description: "荷物をThe Reverie Saigonに預ける。" },
           { id: "d10-02", time: "09:30～10:45", badge: "お土産", title: "ベンタイン市場", description: "雑貨、Tシャツ、ベトナムらしい小物。言い値で即決せず複数店を比較。" },
           { id: "d10-03", time: "11:00～11:45", badge: "チョコレート", title: "Maison Marou", description: "ベトナム産チョコレート、配り土産候補。" },
           { id: "d10-04", time: "12:00～14:00", badge: "昼食・雑貨", title: "昼食・Saigon Kitsch等", description: "デザイン雑貨や現代的なベトナム土産。" },
           { id: "d10-05", time: "14:15～16:30", badge: "買い物", title: "Saigon Centre／高島屋・コーヒー", description: "食品、足りない土産、ベトナムコーヒーを購入。" },
           { id: "d10-06", time: "16:30～18:30", badge: "予備・夕食", title: "予備時間と最後の夕食", description: "17:30～18:30に食べ納め。" },
-          { id: "d10-07", time: "19:00～20:00", badge: "出発準備", title: "Mai Houseへ戻る", description: "荷造り・着替え。" },
+          { id: "d10-07", time: "19:00～20:00", badge: "出発準備", title: "The Reverie Saigonへ戻る", description: "荷造り・着替え。" },
           { id: "d10-08", time: "20:15～20:30頃", badge: "空港へ", title: "ホテル発", description: "21:15頃タンソンニャット国際空港着。チェックイン・出国手続き。" },
           { id: "d10-09", time: "23:55", badge: "国際線", highlight: true, title: "ホーチミン発", description: "成田へ。" }
         ]
@@ -244,7 +244,7 @@ window.TRIP_DATA = {
         { id: "bus", text: "カントー→チャウドックの便・乗場" },
         { id: "car", text: "チャウドック→ハティエン専用車の予約" },
         { id: "ferry", text: "10/9 高速船の正式ダイヤ・料金・港・締切" },
-        { id: "flight", text: "10/11 フーコック→ホーチミン便" }
+        { id: "flight", text: "10/11 フーコック16:25発→ホーチミン17:30着" }
       ]}
     ]
   },
